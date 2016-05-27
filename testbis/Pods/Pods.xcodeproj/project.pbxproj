@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14226FCB5BFE5036D7BC5295A374B618 /* FMMoveTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D218D77341FFDE37B216338315D0C /* FMMoveTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CB5B1A38636A063D394C45242181EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221BED9C760EB7261D5354269C693011 /* Foundation.framework */; };
+		366D16A99F01E403CF0E51A1665D101B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D92A8114A3782AA0A2A30F9BE73C415 /* Pods-dummy.m */; };
+		6978BAB885B3874ABF9798C876CF3728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221BED9C760EB7261D5354269C693011 /* Foundation.framework */; };
+		9EB5B65436B49A763AA4D7FFA956ADB5 /* FMMoveTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA2A4C305CB948AF074DFE67F5D26B /* FMMoveTableView-dummy.m */; };
+		A40004D31292B0021824579BDABC57C2 /* FMMoveTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D109A3F36ACB8C57E27A91DEC01AE1E /* FMMoveTableViewCell.h */; };
+		AF56E80D9F4CEFB29ACC6637FC111B6A /* FMMoveTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D303F082A8026B3C85E1121358709E84 /* FMMoveTableView.h */; };
+		F1B1FA937B5785A60554BE95BEED90C6 /* FMMoveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE0B1E8B1DE8CD2382625FC403FC3 /* FMMoveTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97235A93433F80A5A284762AE3D41D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F502ECDADC3886EFBEB236E9555C07;
+			remoteInfo = FMMoveTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16BA2A4C305CB948AF074DFE67F5D26B /* FMMoveTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMMoveTableView-dummy.m"; sourceTree = "<group>"; };
+		221BED9C760EB7261D5354269C693011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D92A8114A3782AA0A2A30F9BE73C415 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		51B4E6920F4C68C6DFD5F900E48BC133 /* libFMMoveTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMMoveTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7ACD8251E61ABC6B289EC1D14E00EDCB /* FMMoveTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMMoveTableView.xcconfig; sourceTree = "<group>"; };
+		92D8B0DC7EAD56908B0AF85A4D1BDC47 /* FMMoveTableView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FMMoveTableView-Private.xcconfig"; sourceTree = "<group>"; };
+		949CEFEA04A580EA87A9A40EB25D1B1B /* FMMoveTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMMoveTableView-prefix.pch"; sourceTree = "<group>"; };
+		96B58A163FAB644F5A453ADBE52AF6D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9D109A3F36ACB8C57E27A91DEC01AE1E /* FMMoveTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMoveTableViewCell.h; path = FMFramework/FMMoveTableViewCell.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE6620DEB1CE2C04728FE215DAD2486E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D303F082A8026B3C85E1121358709E84 /* FMMoveTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMoveTableView.h; path = FMFramework/FMMoveTableView.h; sourceTree = "<group>"; };
+		E5E00873E5F46331590F25824A9121BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		E94D218D77341FFDE37B216338315D0C /* FMMoveTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMMoveTableView.m; path = FMFramework/FMMoveTableView.m; sourceTree = "<group>"; };
+		EC2DE0B1E8B1DE8CD2382625FC403FC3 /* FMMoveTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMMoveTableViewCell.m; path = FMFramework/FMMoveTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6034CDA2DE425E90CCB7F4332FB7F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB5B1A38636A063D394C45242181EB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75DB7CCBEA191DF12DF5E58AAC05265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6978BAB885B3874ABF9798C876CF3728 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				221BED9C760EB7261D5354269C693011 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C12283D52BA325CD1E614F2FF442674 /* FMMoveTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D303F082A8026B3C85E1121358709E84 /* FMMoveTableView.h */,
+				E94D218D77341FFDE37B216338315D0C /* FMMoveTableView.m */,
+				9D109A3F36ACB8C57E27A91DEC01AE1E /* FMMoveTableViewCell.h */,
+				EC2DE0B1E8B1DE8CD2382625FC403FC3 /* FMMoveTableViewCell.m */,
+				CE79C50E8673DB45C77491B14360A276 /* Support Files */,
+			);
+			path = FMMoveTableView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B60A343E26350A55A86E0D0B7EC22C2C /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				3D92A8114A3782AA0A2A30F9BE73C415 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				E5E00873E5F46331590F25824A9121BA /* Pods.debug.xcconfig */,
+				96B58A163FAB644F5A453ADBE52AF6D6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B60A343E26350A55A86E0D0B7EC22C2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C12283D52BA325CD1E614F2FF442674 /* FMMoveTableView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51B4E6920F4C68C6DFD5F900E48BC133 /* libFMMoveTableView.a */,
+				CE6620DEB1CE2C04728FE215DAD2486E /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE79C50E8673DB45C77491B14360A276 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACD8251E61ABC6B289EC1D14E00EDCB /* FMMoveTableView.xcconfig */,
+				92D8B0DC7EAD56908B0AF85A4D1BDC47 /* FMMoveTableView-Private.xcconfig */,
+				16BA2A4C305CB948AF074DFE67F5D26B /* FMMoveTableView-dummy.m */,
+				949CEFEA04A580EA87A9A40EB25D1B1B /* FMMoveTableView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMMoveTableView";
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AB9E9F214F5772282D0D4D01BAAF079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF56E80D9F4CEFB29ACC6637FC111B6A /* FMMoveTableView.h in Headers */,
+				A40004D31292B0021824579BDABC57C2 /* FMMoveTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57F502ECDADC3886EFBEB236E9555C07 /* FMMoveTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60031C0D754C5683E4DE33BA97B8CB00 /* Build configuration list for PBXNativeTarget "FMMoveTableView" */;
+			buildPhases = (
+				3DC5A4724552260C91C10F452D60F2FB /* Sources */,
+				B6034CDA2DE425E90CCB7F4332FB7F0B /* Frameworks */,
+				3AB9E9F214F5772282D0D4D01BAAF079 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMMoveTableView;
+			productName = FMMoveTableView;
+			productReference = 51B4E6920F4C68C6DFD5F900E48BC133 /* libFMMoveTableView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		842FA3E7C75FA798D0A4C940BA5123E3 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DE18D950D2FFEDBD984D6B7C33C99A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				F06D42BFF761391C9502EB29667488CC /* Sources */,
+				D75DB7CCBEA191DF12DF5E58AAC05265 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB65890378C4AEA8F1DED4038641F3D1 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = CE6620DEB1CE2C04728FE215DAD2486E /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F502ECDADC3886EFBEB236E9555C07 /* FMMoveTableView */,
+				842FA3E7C75FA798D0A4C940BA5123E3 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC5A4724552260C91C10F452D60F2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB5B65436B49A763AA4D7FFA956ADB5 /* FMMoveTableView-dummy.m in Sources */,
+				14226FCB5BFE5036D7BC5295A374B618 /* FMMoveTableView.m in Sources */,
+				F1B1FA937B5785A60554BE95BEED90C6 /* FMMoveTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06D42BFF761391C9502EB29667488CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366D16A99F01E403CF0E51A1665D101B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB65890378C4AEA8F1DED4038641F3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMMoveTableView;
+			target = 57F502ECDADC3886EFBEB236E9555C07 /* FMMoveTableView */;
+			targetProxy = 97235A93433F80A5A284762AE3D41D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31BEF34619B75EF220787231FBEEDC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E00873E5F46331590F25824A9121BA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		41482BE42EE113562599EFBAB505371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B58A163FAB644F5A453ADBE52AF6D6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7968C7EF5CB9DA010732BA6D8AB3864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D8B0DC7EAD56908B0AF85A4D1BDC47 /* FMMoveTableView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMMoveTableView/FMMoveTableView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F2EA0B11A9B4A8A27612F93F92370573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D8B0DC7EAD56908B0AF85A4D1BDC47 /* FMMoveTableView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMMoveTableView/FMMoveTableView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60031C0D754C5683E4DE33BA97B8CB00 /* Build configuration list for PBXNativeTarget "FMMoveTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7968C7EF5CB9DA010732BA6D8AB3864 /* Debug */,
+				F2EA0B11A9B4A8A27612F93F92370573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DE18D950D2FFEDBD984D6B7C33C99A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BEF34619B75EF220787231FBEEDC94 /* Debug */,
+				41482BE42EE113562599EFBAB505371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

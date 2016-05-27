@@ -1,0 +1,10 @@
+PODS:
+  - FMMoveTableView (1.1.2)
+
+DEPENDENCIES:
+  - FMMoveTableView (~> 1.1)
+
+SPEC CHECKSUMS:
+  FMMoveTableView: 63b46cf806133f5220cf92592dc0e6f7eb07633d
+
+COCOAPODS: 0.38.2
